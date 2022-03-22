@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-lmdb-0_1_1.flake = false;
+  inputs.src-lmdb-0_1_1.ref   = "refs/tags/0.1.1";
   inputs.src-lmdb-0_1_1.owner = "FedericoCeratto";
-  inputs.src-lmdb-0_1_1.ref   = "0_1_1";
   inputs.src-lmdb-0_1_1.repo  = "nim-lmdb";
   inputs.src-lmdb-0_1_1.type  = "github";
   

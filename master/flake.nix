@@ -11,6 +11,7 @@
   inputs.src-lmdb-master.ref   = "refs/heads/master";
   inputs.src-lmdb-master.owner = "FedericoCeratto";
   inputs.src-lmdb-master.repo  = "nim-lmdb";
+  inputs.src-lmdb-master.dir   = "";
   inputs.src-lmdb-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

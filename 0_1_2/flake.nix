@@ -11,7 +11,6 @@
   inputs.src-lmdb-0_1_2.ref   = "refs/tags/0.1.2";
   inputs.src-lmdb-0_1_2.owner = "FedericoCeratto";
   inputs.src-lmdb-0_1_2.repo  = "nim-lmdb";
-  inputs.src-lmdb-0_1_2.dir   = "";
   inputs.src-lmdb-0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
